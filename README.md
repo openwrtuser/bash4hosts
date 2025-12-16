@@ -29,3 +29,28 @@ Notes:
 Size of resulting hosts file is currently around 73 Mb.
 IPv6 is not supported by this hosts file; IPv4 only.
 Use at your own risk. No further updates are planned.
+
+
+For much better protection, in addition to this hosts file, use web browser addons, such as Ublock Origin;
+and also use DNS over HTTPS (DoH).
+
+I recommend Adguard Family DoH public free server:
+
+https://family.adguard-dns.com/dns-query
+
+
+Ublock Origin's additional filters:
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
+https://scripttiger.github.io/alts/adblock/blacklist-gps.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_adblock.txt
+https://raw.githubusercontent.com/ppfeufer/adguard-filter-list/master/blocklist
