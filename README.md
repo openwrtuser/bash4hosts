@@ -1,5 +1,5 @@
 A simple Bash script to create Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
-
+=======================================
 Requirements:
 Wget and sed must be installed on the system.
 Wget is used for downloading various hosts files; sed is used for necessary editing of them.
