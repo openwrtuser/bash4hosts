@@ -1,5 +1,4 @@
-# bash4hosts
-A simple Bash script to create/update Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
+A simple Bash script to create Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
 
 Requirements:
 Wget and sed must be installed on the system.
@@ -25,11 +24,8 @@ https://github.com/sjhgvr/oisd
 - Stephan van Ruth's NSFW oisd
 https://github.com/sjhgvr/oisd
 
-Notes:
-Size of resulting hosts file is currently around 73 Mb.
-IPv6 is not supported by this hosts file; IPv4 only.
-Use at your own risk. No further updates are planned.
-============================================================================================================
+--------------------------------------------------------------------------------------
+
 For much better protection, in addition to this hosts file, use web browser addons, such as Ublock Origin:
 
 https://github.com/gorhill/uBlock
@@ -62,7 +58,7 @@ https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_adblock.t
 
 https://raw.githubusercontent.com/ppfeufer/adguard-filter-list/master/blocklist
 
-----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 And also I suggest using DNS over HTTPS (DoH) in your web browser.
 
@@ -70,3 +66,13 @@ I recommend Adguard Family DoH public free server:
 
 https://family.adguard-dns.com/dns-query
 
+--------------------------------------------------------------------------------------
+Notes:
+
+Size of resulting hosts file is around 73 Mb.
+
+IPv6 is not supported by this hosts file; IPv4 only.
+
+Use at your own risk. Some legitimate websites could stop working.
+
+No further updates of this Bash script are planned.
