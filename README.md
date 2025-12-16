@@ -90,8 +90,11 @@ In Debian it can be done this way:
 Copy the script to /etc/cron.daily
 
 Under root, run
+
 crontab -e
+
 or
+
 sudo crontab -e
 
 Add last line:
