@@ -31,7 +31,7 @@ For much better protection, in addition to this hosts file, use web browser addo
 
 https://github.com/gorhill/uBlock
 
-Add Ublock Origin's additional filters:
+You may add Ublock Origin's additional filters:
 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
 
