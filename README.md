@@ -74,8 +74,10 @@ https://family.adguard-dns.com/dns-query
 
 --------------------------------------------------------------------------------------
 Notes:
-
+==============
 Run this script with root privileges.
+
+It will replace your existing /etc/hosts file. Back it up beforehand, if needed.
 
 Size of resulting hosts file is currently around 73 Mb.
 
