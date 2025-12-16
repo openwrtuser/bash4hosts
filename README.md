@@ -70,7 +70,7 @@ https://family.adguard-dns.com/dns-query
 --------------------------------------------------------------------------------------
 Notes:
 
-Size of resulting hosts file is around 73 Mb.
+Size of resulting hosts file is currently around 73 Mb.
 
 IPv6 is not supported by this hosts file; IPv4 only.
 
