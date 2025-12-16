@@ -4,7 +4,7 @@ Requirements:
 
 Wget and sed must be installed on the system.
 Wget is used for downloading various hosts files; sed is used for necessary editing of them.
-
+---------------------------------------
 Resulting hosts file contains the following collections of hosts files:
 
 - Steven Black's Unified hosts + gambling + adult + social
