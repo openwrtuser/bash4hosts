@@ -113,7 +113,7 @@ or, simply reboot PC.
 
 Use script at your own risk. Some legitimate websites could stop working.
 
-In this case, try less restrictive original hosts files (e.g. 1Hosts Lite, HaGeZi Multi PRO, etc.).
+In this case, try less restrictive original hosts files (e.g. 1Hosts Lite, HaGeZi Multi PRO, Small oisd, etc.).
 
 Modify the script to suit your needs.
 
