@@ -28,4 +28,4 @@ https://github.com/sjhgvr/oisd
 Notes:
 Size of resulting hosts file is currently around 73 Mb.
 IPv6 is not supported by this hosts file; IPv4 only.
-Use at your own risk.
+Use at your own risk. No futher updates are planned.
