@@ -27,7 +27,7 @@ https://github.com/sjhgvr/oisd
 
 --------------------------------------------------------------------------------------
 
-For much better protection, in addition to this hosts file, use web browser addons, such as Ublock Origin:
+For much better protection, in addition to this hosts file, you may use web browser addons, such as Ublock Origin:
 
 https://github.com/gorhill/uBlock
 
