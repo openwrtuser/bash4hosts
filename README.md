@@ -3,7 +3,8 @@ A simple Bash script to update Linux hosts file with aggressive blocking of ads,
 Requirements:
 
 Wget and sed must be installed on the system.
-Wget is used for downloading various hosts files; sed is used for necessary editing of them.
+(Wget is used for downloading various hosts files; sed - for necessary editing of them.)
+Awk is strongly recommended, as it diminishes size of resulting hosts file, by removing identical lines in it.
 ---------------------------------------
 Resulting hosts file contains the following collections of hosts files:
 
