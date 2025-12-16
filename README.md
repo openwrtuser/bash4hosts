@@ -1,4 +1,4 @@
-A simple Bash script to create Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
+A simple Bash script to update Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
 =======================================
 Requirements:
 Wget and sed must be installed on the system.
