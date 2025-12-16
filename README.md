@@ -1,3 +1,4 @@
+
 A simple Bash script to update Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
 =======================================
 Requirements:
@@ -74,10 +75,43 @@ https://family.adguard-dns.com/dns-query
 --------------------------------------------------------------------------------------
 Notes:
 
+Run this script with root privileges.
+
 Size of resulting hosts file is currently around 73 Mb.
 
 IPv6 is not supported by this hosts file; IPv4 only.
 
-Use at your own risk. Some legitimate websites could stop working.
 
-No further updates of this Bash script are planned.
+
+The script can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
+
+In Debian it can be done this way:
+
+Copy the script to /etc/cron.daily
+
+Under root, run
+crontab -e
+or
+sudo crontab -e
+
+Add last line:
+
+30 06 * * * /etc/cron.daily/updhosts.sh
+
+Save, and restart cron:
+
+sudo systemctl restart cron
+
+or, simply reboot PC.
+
+
+Use script at your own risk. Some legitimate websites could stop working.
+
+In this case, try less restrictive original hosts files (e.g. 1Hosts Lite, HaGeZi Multi PRO, etc.).
+
+Modify the script to suit your needs.
+
+No further updates are planned.
+
+
+
