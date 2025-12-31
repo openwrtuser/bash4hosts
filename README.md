@@ -1,15 +1,39 @@
+A simple Bash script to update Linux hosts file with regular blocking of ads, trackers, telemetry, adult content, malicious content, etc. (download and use hosts.sh script file). So, this is a regular variant.
 
-A simple Bash script to update Linux hosts file with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc.
+Alternatively, a modification of this script can be used, with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc. (download and use updhosts.sh script file). So, this is an aggressive variant.
+
 =======================================
+
 Requirements:
 
 Wget and sed must be installed on the system.
 
-Wget is used for downloading various hosts files; sed - for necessary editing of them.
+Wget is used for downloading various original hosts files; sed - for necessary editing of them.
 
 Awk is strongly recommended, as it diminishes size of resulting hosts file by removing identical lines in it.
 
 ---------------------------------------
+
+Regular variant (hosts.sh)
+
+Resulting hosts file contains the following collections of hosts files:
+
+- Steven Black's Unified hosts + gambling + adult + social
+https://github.com/StevenBlack/hosts
+
+- Adguard and EasyPrivacy hosts from r-a-y mobile-hosts 
+https://github.com/r-a-y/mobile-hosts
+
+- Stephan van Ruth's Big oisd
+https://github.com/sjhgvr/oisd
+
+- Stephan van Ruth's NSFW oisd
+https://github.com/sjhgvr/oisd
+
+---------------------------------------
+
+Aggressive variant (updhosts.sh)
+
 Resulting hosts file contains the following collections of hosts files:
 
 - Steven Black's Unified hosts + gambling + adult + social
@@ -32,7 +56,7 @@ https://github.com/sjhgvr/oisd
 
 --------------------------------------------------------------------------------------
 
-For much better protection, in addition to this hosts file, you may use web browser addons, such as Ublock Origin:
+For much better protection, in addition to hosts file, you may use web browser addons, such as Ublock Origin:
 
 https://github.com/gorhill/uBlock
 
@@ -75,19 +99,19 @@ https://family.adguard-dns.com/dns-query
 --------------------------------------------------------------------------------------
 Notes:
 ==============
-Run this script with root privileges.
+Run these scripts with root privileges.
 
-It will replace your existing /etc/hosts file. Back it up beforehand, if needed.
+They will replace your existing /etc/hosts file. Back it up beforehand, if needed.
 
-Size of resulting hosts file is currently around 73 Mb.
+Size of resulting hosts file is currently around 23 Mb for regular variant; and around 73 Mb for aggressive variant.
 
-IPv6 is not supported by this hosts file; IPv4 only.
+IPv6 is not supported by these hosts file; IPv4 only.
 
 --------------------------------------------------------------------------------------
 
-The script can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
+The scripts can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
 
-In Debian it can be done this way:
+In Debian Linuxs it can be done this way, for regular variant (hosts.sh):
 
 Copy the script to /etc/cron.daily
 
@@ -101,7 +125,7 @@ sudo crontab -e
 
 Add last line:
 
-30 06 * * * /etc/cron.daily/updhosts.sh
+30 06 * * * /etc/cron.daily/hosts.sh
 
 Save, and restart cron:
 
@@ -111,10 +135,10 @@ or, simply reboot PC.
 
 --------------------------------------------------------------------------------------
 
-Use script at your own risk. Some legitimate websites could stop working.
+Use the scripts at your own risk. Some legitimate websites could stop working.
 
-In this case, try less restrictive original hosts files (e.g. 1Hosts Lite, HaGeZi Multi PRO, Small oisd, etc.).
+In this case, you may try using less restrictive original hosts files (e.g. 1Hosts Lite, HaGeZi Multi PRO, Small oisd, etc.) in the scripts.
 
-Modify the script to suit your needs.
+Modify the scripts to suit your needs.
 
 No further updates are planned.
