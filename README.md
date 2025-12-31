@@ -1,7 +1,6 @@
 A simple Bash script to update Linux hosts file with regular blocking of ads, trackers, telemetry, adult content, malicious content, etc. (download and use hosts.sh script file). So, this is a regular variant.
-
+=======================================
 Alternatively, a modification of this script can be used, with aggressive blocking of ads, trackers, telemetry, adult content, malicious content, etc. (download and use updhosts.sh script file). So, this is an aggressive variant.
-
 =======================================
 
 Requirements:
